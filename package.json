@@ -1,0 +1,63 @@
+{
+  "author": {
+    "name": "Joris Blaak",
+    "email": "joris.blaak@gmail.com"
+  },
+  "name": "9292ov",
+  "description": "Library to communicate with 9292ov (9292ov.nl), allows you to get departures, locations and plan journeys.",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBlaak/NodeJS-9292.git"
+  },
+  "contributors": [
+    {
+      "name": "Bart Olsthoorn",
+      "email": "bartolsthoorn@gmail.com"
+    }
+  ],
+  "main": "./lib/9292",
+  "keywords": [
+    "9292",
+    "9292ov",
+    "transit"
+  ],
+  "dependencies": {
+    "http": "*",
+    "url": "*"
+  },
+  "scripts": {
+    "test": "mocha --recursive  --timeout 10000"
+  },
+  "devDependencies": {
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4",
+    "moment": "^2.11.1"
+  },
+  "gitHead": "c07e00946efae747f68fadb1da0a2a5dd4b727f2",
+  "bugs": {
+    "url": "https://github.com/JBlaak/NodeJS-9292/issues"
+  },
+  "homepage": "https://github.com/JBlaak/NodeJS-9292#readme",
+  "_id": "9292ov@2.0.0",
+  "_shasum": "d81da2a580caeeba7f4a4e8cf711e7a23089a273",
+  "_from": "9292ov@*",
+  "_npmVersion": "2.14.12",
+  "_nodeVersion": "4.2.4",
+  "_npmUser": {
+    "name": "jblaak",
+    "email": "joris@label305.com"
+  },
+  "dist": {
+    "shasum": "d81da2a580caeeba7f4a4e8cf711e7a23089a273",
+    "tarball": "http://registry.npmjs.org/9292ov/-/9292ov-2.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jblaak",
+      "email": "joris@label305.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/9292ov/-/9292ov-2.0.0.tgz"
+}
